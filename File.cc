@@ -1,6 +1,6 @@
 #include "File.h"
 
-File::File(string name, string content, Date& date){
+File::File(string name, string content, Date date){
     this->name = name;
     this->content = content;
     this->date = date;
